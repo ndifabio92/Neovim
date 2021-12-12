@@ -20,3 +20,7 @@ noremap <Leader>gsh :Gpush<CR>
 noremap <Leader>gll :Gpull<CR>
 noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
+"Navigation in buffer
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr> 

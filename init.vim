@@ -38,8 +38,6 @@ if exists("&termguicolors") && exists("&winblend")
   set winblend=0
   set wildoptions=pum
   set pumblend=5
-  set background=dark
-  " Use NeoSolarized
   let g:neosolarized_termtrans=1
   runtime ./colors/NeoSolarized.vim
   colorscheme NeoSolarized
@@ -50,8 +48,6 @@ endif
 " NERDTREE COC AIRLINE "{{{
 " ---------------------------------------------------------------------
 let NERDTreeQuitOnOpen=1
-    "let g:gruvbox_constrat_dark = "hard"
-    "let g:coc_global_extensions = ['coc-html','coc-rome','coc-tslint-plugin','coc-omnisharp']
     let g:coc_global_extensions = ['coc-tsserver','coc-prettier','coc-eslint','coc-json','coc-css','coc-html','coc-rome','coc-tslint-plugin','coc-omnisharp']
     
     "NerdTree
