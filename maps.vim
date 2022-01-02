@@ -21,6 +21,10 @@ noremap <Leader>gll :Gpull<CR>
 noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
 "Navigation in buffer
+
+" next
 map gn :bn<cr>
+" prev
 map gp :bp<cr>
-map gd :bd<cr> 
+" delete
+map gdd :bd<cr> 
